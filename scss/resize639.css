@@ -1,0 +1,18 @@
+@media screen and (max-width: 639px) {
+  .header__location {
+    display: none;
+  }
+
+  .header__account {
+    width: 156px;
+  }
+  .header__account-sign, .header__account-register {
+    width: 72px;
+    font-size: 11px;
+  }
+  .header__account-basket {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=resize639.css.map */

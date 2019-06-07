@@ -1,0 +1,19 @@
+.main__item {
+  width: 308px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.main__item:hover {
+  background-color: #757575;
+  opacity: 0.04;
+}
+.main__item-images {
+  margin-bottom: 16px;
+}
+.main__item-name {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/*# sourceMappingURL=restaurant-item.css.map */

@@ -1,0 +1,48 @@
+@import "variables";
+
+.main__item {
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+
+  line-height: 21px;
+  color: $black-text;
+
+  &-images {
+    margin-bottom: 16px;
+
+
+    img {
+      -webkit-transition: all 1s ease-out;
+      width: 100%;
+
+      &:hover {
+        -webkit-transform: scale(0.95);
+        opacity: 0.8;
+      }
+    }
+  }
+
+  &-name {
+    color: $black-text;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 4px;
+  }
+
+  &-type {
+    color: $grey-text;
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+
+  &-time {
+    font-size: 13px;
+  }
+
+  &:hover {
+    background-color: $item-background-hover;
+  }
+}
+
+

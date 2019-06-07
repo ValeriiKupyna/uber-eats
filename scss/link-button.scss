@@ -1,0 +1,14 @@
+@import "variables";
+
+.link-button {
+  border: 1px solid $border-color;
+  border-radius: 2px;
+  color: $black-text;
+  line-height: 40px;
+  text-align: center;
+
+  &:hover {
+    color: $white-text;
+    background-color: $link-hover-color;
+  }
+}

@@ -1,0 +1,95 @@
+@import "variables";
+
+@media screen and (max-width: 639px) {
+  .header__location {
+    display: none;
+  }
+
+  .header__account {
+    width: 156px;
+
+    &-sign, &-register {
+      width: 72px;
+      font-size: 11px;
+    }
+
+    &-basket {
+      display: none;
+    }
+  }
+
+  .main__location {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-bottom: 40px;
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &-text {
+      margin-bottom: 8px;
+      font-size: 11px;
+      line-height: 13px;
+      color: $grey-text;
+    }
+
+    &-time {
+      width: 65px;
+    }
+
+    &-place {
+      display: flex;
+      align-items: center;
+      border: 1px solid $border-color;
+      border-radius: 2px;
+      min-width: 227px;
+      height: 40px;
+    }
+
+    &-icon {
+      margin: 0 12px;
+    }
+
+    &-address {
+      border: none;
+    }
+  }
+
+  .main__restaurants-list {
+    grid: auto-flow/repeat(1, 1fr);
+  }
+
+  .footer {
+    &__nav {
+      flex-direction: column;
+
+      &-social-network {
+        margin-bottom: 42px;
+      }
+
+      &-pages, &-inform {
+        width: 100%;
+      }
+
+      &-block-link:last-child {
+        margin-bottom: 23px;
+      }
+    }
+
+    &__applications--link {
+      margin: 0 12px;
+    }
+
+    &__rights-page {
+      flex-direction: column;
+
+      * {
+        margin-bottom: 24px;
+      }
+    }
+
+  }
+}
