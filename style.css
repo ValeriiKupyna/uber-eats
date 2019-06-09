@@ -13,7 +13,7 @@ input:focus, label:focus, a:focus {
 }
 
 header {
-  box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
+  box-shadow: 0 0 16px rgba(38, 38, 38, 0.15);
 }
 
 .header {
