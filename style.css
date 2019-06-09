@@ -8,11 +8,18 @@ a {
   text-decoration: none;
 }
 
+input:focus, label:focus, a:focus {
+  outline: none;
+}
+
+header {
+  box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
+}
+
 .header {
   display: flex;
   padding: 17px 97px 15px 81px;
   justify-content: space-between;
-  box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
   max-width: 1024px;
   margin: 0 auto;
 }
@@ -200,6 +207,10 @@ footer {
   background-color: #262626;
 }
 
+footer a {
+  width: max-content;
+}
+
 .footer {
   margin: 0 auto;
   max-width: 1024px;
@@ -343,12 +354,14 @@ footer {
   height: 80px;
   background: #59BD5A;
   border-radius: 2px;
-  position: absolute;
+  position: fixed;
   bottom: 24px;
   right: 16px;
+  opacity: 0.6;
 }
 .footer__arrow-to-top:hover {
-  background-color: #59BD5A;
+  background: #59BD5A;
+  opacity: 1;
 }
 
 @media screen and (max-width: 1023px) {
